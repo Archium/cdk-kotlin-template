@@ -16,7 +16,7 @@ class ExampleStack(parent: Construct?, id: String?, props: Props)
     init {
         Tags.of(this).apply {
             // TODO: Replace YOUR_ORG_NAME in this tag with your org name
-            add("YOUR_ORG_NAME:cdk-source", this::class.simpleName!!)
+            add("YOUR_ORG_NAME:cdk-source", ExampleStack::class.simpleName!!)
         }
     }
 
