@@ -1,0 +1,4 @@
+{
+  "assume-role-credentials:readIamRoleName": "CdkDeploymentRole",
+  "assume-role-credentials:writeIamRoleName": "CdkDeploymentRole"
+}

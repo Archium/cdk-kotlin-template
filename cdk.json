@@ -1,5 +1,6 @@
 {
   "app": "mvn -e -q clean compile exec:java",
+  "plugin": ["cdk-assume-role-credential-plugin"],
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
