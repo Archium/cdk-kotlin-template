@@ -1,5 +1,6 @@
 package com.example.cdk
 
+import com.example.cdk.stacks.ExampleStack
 import software.amazon.awscdk.core.App
 import software.amazon.awscdk.core.Environment
 import software.amazon.awscdk.core.Tags

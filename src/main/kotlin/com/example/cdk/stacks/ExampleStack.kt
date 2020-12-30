@@ -1,4 +1,4 @@
-package com.example.cdk
+package com.example.cdk.stacks
 
 import software.amazon.awscdk.core.Construct
 import software.amazon.awscdk.core.Environment
@@ -8,8 +8,9 @@ import software.amazon.awscdk.core.Tags
 import software.amazon.awscdk.services.ec2.SubnetConfiguration
 import software.amazon.awscdk.services.ec2.SubnetType
 import software.amazon.awscdk.services.ec2.Vpc
+import com.example.cdk.build
 
-@Suppress("MemberVisibilityCanBePrivate")
+@Suppress("unused", "MemberVisibilityCanBePrivate")
 class ExampleStack(parent: Construct?, id: String?, props: Props)
     : Stack(parent, id, StackProps.Builder().env(props.environment).build()) {
 
@@ -33,6 +34,7 @@ class ExampleStack(parent: Construct?, id: String?, props: Props)
     class Props(val environment: Environment)
 }
 
+@Suppress("SameParameterValue")
 private fun vpc(scope: Construct, id: String, init: Vpc.Builder.() -> Unit) =
     Vpc.Builder.create(scope, id).build(init)
 
