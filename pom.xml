@@ -9,10 +9,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.4.21</kotlin.version>
+        <kotlin.version>1.4.31</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
-        <cdk.version>1.78.0</cdk.version>
-        <junit.version>5.6.2</junit.version>
+        <cdk.version>1.85.0</cdk.version>
+        <junit.version>5.7.1</junit.version>
     </properties>
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
@@ -103,7 +103,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.18.0</version>
+            <version>3.19.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
