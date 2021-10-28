@@ -17,6 +17,7 @@ It also includes some helpful scripts and instructions for working with CDK in a
 ### Tools for running
 * An AWS account (or accounts)
 * [CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html) (`npm install -g aws-cdk`)
+* [CDK Assume Role Credential Plugin](https://aws.amazon.com/blogs/devops/cdk-credential-plugin/) (`npm install -g cdk-assume-role-credential-plugin`)
 * [AWS CLI](https://aws.amazon.com/cli/) (https://awscli.amazonaws.com/AWSCLIV2.pkg)
 * [jq](https://stedolan.github.io/jq/) (`brew install jq`)
 * [JEnv](https://www.jenv.be/) (recommended) (`brew install jenv`)
